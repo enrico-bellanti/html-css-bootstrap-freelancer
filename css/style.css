@@ -32,6 +32,26 @@
   text-align: center;
 }
 
+a{
+  text-decoration: none;
+}
+
+/* menu */
+
+.menu{
+  line-height: 70px;
+}
+
+.menu_list{
+  text-align: right;
+}
+
+.hamburger-icon {
+  float: right;
+  line-height: 70px;
+  font-size: 30px;
+}
+
 
 /* jumbotron */
 

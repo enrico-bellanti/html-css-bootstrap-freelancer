@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Freelancer</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="debug">
+  <body>
     <!-- header -->
    <header class="bg_darkblue">
-    <nav class="container">
+    <nav class="menu container">
       <div class="row">
         <div class="col-xs-5 .col-sm-5">START-BOOTSTRAP-LOGO</div>
-        <div class="col-xs-2 col-xs-offset-5 col-sm-5 col-sm-offset-2">MENU</div>
+        <div class="col-sm-5 col-sm-offset-2 col-md-5 col-md-offset-2 hidden-xs">
+          <ul class="menu_list list-unstyled list-inline">
+            <li><a href="#">LINK</a></li>
+            <li><a href="#">LINK</a></li>
+            <li><a href="#">LINK</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-2 col-xs-offset-5  hidden-sm hidden-md hidden-lg">
+          <i class="fas fa-bars hamburger-icon"></i>
+        </div>
       </div>
     </nav>
    </header>
