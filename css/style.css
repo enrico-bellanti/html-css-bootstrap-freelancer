@@ -1,3 +1,19 @@
+/* debug */
+.debug .container{
+  background-color: pink;
+}
+
+.debug .container .row{
+  background-color: lightcoral;
+}
+
+.debug .container .row [class*="col-"]{
+  height: 100px;
+  background-color: lightcoral;
+  border: 1px solid #000;
+}
+
+
 /* feature */
 
 .bg_darkblue{
@@ -10,4 +26,17 @@
 
 .bg_grey_blue{
   background-color: #3a546d;
+}
+
+
+/* jumbotron */
+
+.jumbotron{
+  margin-bottom: 0;
+}
+
+/* portfolio */
+
+.portfolio_title{
+  text-align: center;
 }
