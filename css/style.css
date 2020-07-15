@@ -28,15 +28,21 @@
   background-color: #3a546d;
 }
 
+.t_alngcentr{
+  text-align: center;
+}
+
 
 /* jumbotron */
 
-.jumbotron{
-  margin-bottom: 0;
-}
+
 
 /* portfolio */
 
-.portfolio_title{
-  text-align: center;
-}
+
+
+/* About section */
+
+
+
+/* Contact form section */
