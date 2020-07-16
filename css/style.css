@@ -44,6 +44,11 @@ body{
   font-weight: bold;
 }
 
+/* .wrapper{
+  max-width: 900px;
+  width: 70%;
+} */
+
 
 /* menu */
 
@@ -51,6 +56,10 @@ body{
   height: 70px;
   line-height: 70px;
   color: #fff;
+}
+
+.menu h3{
+  font-size: 24px;
 }
 
 .menu a{
@@ -65,20 +74,17 @@ body{
   text-align: right;
 }
 
-
-.hamburger-icon {
-
-  font-size: 1.7rem;
-  color: #888888;
-  vertical-align: middle;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 5px 10px;;
+.hamburg_wrapper button{
+ background-color: transparent;
 }
 
-.hamburg_wrapper{
-  text-align: right;
+.hamburg_wrapper .hamburger{
+ font-size: 20px;
+ color: #888888;
+ background-color: transparent;
 }
+
+
 
 
 /* jumbotron */
