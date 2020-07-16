@@ -84,9 +84,10 @@ body{
 /* jumbotron */
 
 .jumbotron img{
- height: 200px;
+ height: 100px;
+ width: 100px;
  border-radius: 50%;
- padding: 10px;
+ padding: 100px;
 }
 
 .jumbotron h1{
