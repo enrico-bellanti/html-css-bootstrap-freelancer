@@ -36,10 +36,19 @@ body{
   text-align: center;
 }
 
+.t_white{
+  color: #fff;
+}
+
+.f_w_bold{
+  font-weight: bold;
+}
+
 
 /* menu */
 
 .menu{
+  height: 70px;
   line-height: 70px;
   color: #fff;
 }
@@ -56,23 +65,41 @@ body{
   text-align: right;
 }
 
-.logo_menu{
-  font-weight: bold;
-}
 
 .hamburger-icon {
-  float: right;
-  line-height: 70px;
+
   font-size: 1.7rem;
   color: #888888;
-  /* border: 1px solid #fff;
+  vertical-align: middle;
+  border: 1px solid #fff;
   border-radius: 5px;
-  padding: 0 5px; */
+  padding: 5px 10px;;
+}
+
+.hamburg_wrapper{
+  text-align: right;
 }
 
 
 /* jumbotron */
 
+.jumbotron img{
+ height: 200px;
+ border-radius: 50%;
+ padding: 10px;
+}
+
+.jumbotron h1{
+
+}
+.jumbotron .divisor{
+ font-size: 2.5rem;
+ margin-bottom: 20px;
+}
+.jumbotron p{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 
 /* portfolio */
