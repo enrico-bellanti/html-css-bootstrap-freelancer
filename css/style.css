@@ -172,6 +172,7 @@ h4{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 }
 
 .img_portfolio_wrapper .layover{
@@ -179,7 +180,7 @@ h4{
   height: 100%;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0);
-  transition-duration: 1s;
+  transition: 0.5s;
 }
 
 .img_portfolio_wrapper .layover:hover {
@@ -188,18 +189,19 @@ h4{
 }
 
 .img_portfolio_wrapper .layover span{
-  display: none;
+  opacity: 0;
   font-size: 60px;
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  transition: 0.5s
 
 }
 
 .img_portfolio_wrapper .layover:hover span{
-  display: inline-block;
+  opacity: 1;
 }
 
 .img_cabin{
@@ -232,7 +234,14 @@ h4{
   background-color: transparent;
   padding: 20px;
   border: 2px solid #fff;
+  transition: 0.15s;
 }
+.about button:hover{
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+
+
 
 
 /* Contact form section */
@@ -251,6 +260,7 @@ h4{
   line-height: 50px;
   border-radius: 50%;
   border: 2px solid #fff;
+  transition: 0.15s;
 }
 
 .social_list li a:hover{
