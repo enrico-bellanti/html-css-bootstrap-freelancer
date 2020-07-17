@@ -95,13 +95,17 @@
 
      <!-- About -->
      <section class="about p_top_80 p_bottom_80 bg_green t_white">
+
+       <div class="about_title t_alngcentr">
+         <h2>ABOUT</h2>
+         <div class="divisor t_alngcentr"><span><i class="fas fa-star"></i></span></div>
+       </div>
+
       <div class="wrapper">
-        <div class="about_title t_alngcentr"><h2>ABOUT</h2></div>
-        <div class="divisor t_alngcentr"><span><i class="fas fa-star"></i></span></div>
         <div class="container-fluid m_bottom_30">
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+              <p class="m_bottom_30">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
             </div>
             <div class="col-xs-12 col-sm-6">
               <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
@@ -117,13 +121,35 @@
      </section>
 
      <!-- Contact -->
-     <section class="contact">
-      <div class="contact_title t_alngcentr">CONTACT ME</div>
-      <div class="container contact_form">
-        <div class="row">
-          <div class="col-xs-8 col-xs-offset-2">FORM+BUTTON</div>
-        </div>
-      </div>
+     <section id="contact" class="contact p_top_80 p_bottom_80">
+
+       <div class="contact_title t_alngcentr t_darkblue">
+         <h2>CONTACT</h2>
+         <div class="divisor"><span><i class="fas fa-star"></i></span></div>
+       </div>
+
+       <div class="wrapper">
+         <div class="container-fluid">
+           <div class="row">
+             <div class="col-xs-12">
+               <form>
+                 <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Name">
+                 </div>
+                 <div class="form-group">
+                   <input type="email" class="form-control" placeholder="Email Address">
+                 </div>
+                 <div class="form-group">
+                   <input type="tel" class="form-control" placeholder="Phone Number">
+                 </div>
+                 <textarea class="form-control " rows="5" placeholder="Message"></textarea>
+                 <button type="submit" class="btn btn-default">Send</button>
+               </form>
+             </div>
+           </div>
+         </div>
+       </div>
+
      </section>
 
    </main>
